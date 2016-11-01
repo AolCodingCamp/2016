@@ -1,11 +1,28 @@
 p{
-    font-size: 35px;
+    font-size: 25px;
     font-family:"Agency FB";
     text-align: center;
 }
 
 h1{
     font-weight: bold;
+    font-family:"Agency FB";
+    text-align: center;
+    font-size: 40px;
+}
+
+
+.div1 img{
+   float: left;
+}
+
+.div2 img{
+    float: right;
+}
+
+
+h2{
+    font-size: 35;
     font-family:"Agency FB";
     text-align: center;
 }
