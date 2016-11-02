@@ -25,4 +25,12 @@ h2{
     font-size: 35;
     font-family:"Agency FB";
     text-align: center;
+    font-weight: bold;
+}
+
+h3{
+    font-size:30;
+    font-family:"Agency FB";
+    text-align:Center;
+    font-weight:bold;
 }
