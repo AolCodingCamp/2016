@@ -1,1 +1,28 @@
-p {color: crimson;}
+  animate-me {
+
+ animation: 0.5s infinite bgcolorchange;
+}
+@keyframes bgcolorchange {
+ 0% {
+   color: red;
+ }
+ 25% {
+   background: green;
+ }
+ 50% {
+   background: blue;
+ }
+ 75% {
+   background: yellow;
+ }
+ 100% {
+   background-color: purple;
+ }
+}
+@-webkit-keyframes bgcolorchange {
+   0%   {background: red;}
+   25%  {background: green;}
+   50%  {background: blue;}
+   75%  {background: yellow;}
+   100% {background: purple;}
+}
