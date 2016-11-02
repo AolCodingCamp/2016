@@ -2,6 +2,29 @@
     <head>
         <title>Gavin's Page</title>
         <link rel="stylesheet" href="Gavin.css">
+        
+        <style>
+            div.button{
+                width:200px;
+                height:200px;
+                border-radius:100px;
+                background-color:#ff0000;
+                box-shadow: 5px 5px #888888;
+                margin-left: 100px;
+                text-align: center;
+            }
+            
+            div.button:active{
+                background-color:#e60000;
+                box-shadow:-5px -5px #888888;
+                
+            }
+            
+            p.text{
+                padding-top: 80;
+                
+            }
+        </style>
     
     
     </head>
@@ -48,7 +71,13 @@
         </div>
         
         
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/wZZ7oFKsKzY?autoplay=1" frameborder="0" allowfullscreen></iframe>
+        <div class="button"><p class="text">Don't Press This Button</p></div>
+        
+        
+        <div>
+        <iframe width="112" height="63" src="https://www.youtube.com/embed/wZZ7oFKsKzY?autoplay=1" frameborder="0" allowfullscreen></iframe>
+        <p class="notCentred"> &#60;--- Click to stop music.</p>
+        </div>
         
     </body>
 
