@@ -4,11 +4,28 @@ p{
     text-align: center;
 }
 
+
+.blink_me {
+ animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {  
+ 50% { color: red; }
+}
+
 h1{
     font-weight: bold;
     font-family:"Agency FB";
     text-align: center;
     font-size: 40px;
+}
+
+h1.green{
+    font-weight: bold;
+    font-family:"Agency FB";
+    text-align: center;
+    font-size: 40px;
+    color:lawngreen;
 }
 
 
@@ -33,4 +50,14 @@ h3{
     font-family:"Agency FB";
     text-align:Center;
     font-weight:bold;
+}
+
+p.notCentred{
+    font-size: 25px;
+    font-family:"Agency FB";
+    float:left;
+}
+
+iframe{
+    float:left;
 }

@@ -2,6 +2,29 @@
     <head>
         <title>Gavin's Page</title>
         <link rel="stylesheet" href="Gavin.css">
+        
+        <style>
+            div.button{
+                width:200px;
+                height:200px;
+                border-radius:100px;
+                background-color:#ff0000;
+                box-shadow: 5px 5px #888888;
+                margin-left: 100px;
+                text-align: center;
+            }
+            
+            div.button:active{
+                background-color:#e60000;
+                box-shadow:-5px -5px #888888;
+                
+            }
+            
+            p.text{
+                padding-top: 80;
+                
+            }
+        </style>
     
     
     </head>
@@ -11,7 +34,7 @@
         
 
     
-    <h1>Hello, this is my web page!</h1>
+    <h1 class="blink_me green">Hello, this is my web page!</h1>
         
                 <h2>Introduction</h2>
         
@@ -28,7 +51,7 @@
         
         <h2>My Projects</h2>
         
-        <p>My main project was called echo. I did it with my two friends Shane and Ben. It was to help blind people get around.They could "feel" when they were coming close to someone or something.</p>
+        <p>My main project was called echo. I did it with my two friends Shane and Ben. It was to help blind people get around. They could "feel" when they were coming close to someone or something.</p>
         
         
         
@@ -48,7 +71,13 @@
         </div>
         
         
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/wZZ7oFKsKzY?autoplay=1" frameborder="0" allowfullscreen></iframe>
+        <div class="button"><p class="text">Don't Press This Button</p></div>
+        
+        
+        <div>
+        <iframe width="112" height="63" src="https://www.youtube.com/embed/wZZ7oFKsKzY?autoplay=1" frameborder="0" allowfullscreen></iframe>
+        <p class="notCentred"> &#60;--- Click to stop music.</p>
+        </div>
         
     </body>
 
