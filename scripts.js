@@ -10,8 +10,6 @@ $(function() {
     container.html(counter);
   });
 
-  $('.div1').on( "mouseover", function() {
-    $('.div1').css( "color", "red" );
-  });
+
 
 });
