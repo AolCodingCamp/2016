@@ -1,28 +1,28 @@
-  animate-me {
-
- animation: 0.5s infinite bgcolorchange;
+.animate-me {
+    
+  animation: 2s infinite bgcolorchange;
 }
 @keyframes bgcolorchange {
- 0% {
-   color: red;
- }
- 25% {
-   background: green;
- }
- 50% {
-   background: blue;
- }
- 75% {
-   background: yellow;
- }
- 100% {
-   background-color: purple;
- }
+  0% {
+    color: red;
+  }
+  25% {
+    background: green;
+  }
+  50% {
+    background: purple;
+  }
+  75% {
+    background: yellow;
+  }
+  100% {
+    background-color: blue
+ ; }
 }
 @-webkit-keyframes bgcolorchange {
-   0%   {background: red;}
-   25%  {background: green;}
-   50%  {background: blue;}
-   75%  {background: yellow;}
-   100% {background: purple;}
+    0%   {background: red;}
+    25%  {background: purple;}
+    50%  {background: yellow;}
+    75%  {background: green;}
+    100% {background: blue;}
 }
